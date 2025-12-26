@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Home | GreatKart{% endblock %}
+
+{% block content %}
+<div id="carouselExampleAutoplaying" class="carousel slide mt-40px" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="{% static 'images/sale_image1.jpeg' %}" class="d-block w-100" alt="sale1" height="400" width="800"
+                title="1" />
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'images/sale_image2.jpeg' %}" class="d-block w-100" alt="sal2" height="400" width="800"
+                title="2" />
+        </div>
+        <div class="carousel-item">
+            <img src="{% static 'images/sale_image4.jpeg' %}" class="d-block w-100" alt="sale3" height="400" width="800"
+                title="3" />
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+{% endblock %}

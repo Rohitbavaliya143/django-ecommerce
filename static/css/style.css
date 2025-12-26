@@ -1,0 +1,72 @@
+ .navbar {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 9999;
+     /* keeps dropdown above everything */
+ }
+
+ .carousel {
+     margin-top: 86px;
+     /* adjust for navbar height */
+ }
+
+ h1 {
+     top: 34vh;
+ }
+
+ a {
+     color: #212529;
+     text-decoration: blink;
+ }
+
+ .exthome {
+     margin-left: 12vh;
+ }
+
+ .product-card {
+     transition: all 0.3s ease;
+     border: none;
+     border-radius: 12px;
+     overflow: hidden;
+     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+ }
+
+ .product-card:hover {
+     transform: translateY(-8px);
+     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+ }
+
+ .product-img {
+     height: 280px;
+     object-fit: contain;
+     background: #f8f9fa;
+     padding: 20px;
+ }
+
+ .original-price {
+     text-decoration: line-through;
+     color: #888;
+     font-size: 0.9rem;
+ }
+
+ .discount-badge {
+     background: #ff3b30;
+     color: white;
+     font-size: 0.8rem;
+     padding: 4px 8px;
+     border-radius: 4px;
+ }
+
+ .rating {
+     font-size: 0.9rem;
+ }
+
+ .filter-badge {
+     background: #e9ecef;
+     border: 1px solid #dee2e6;
+     border-radius: 8px;
+     padding: 8px 12px;
+     font-size: 0.9rem;
+ }
